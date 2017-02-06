@@ -40,6 +40,10 @@ public class LoginActivity extends Activity {
         ActivityManager.getInstance().addActivity(this);
     }
 
+    /**
+     *
+     * @param v
+     */
     @OnClick({R.id.login_reg,R.id.login_findpwd,R.id.login_btn})
     public void onClick(View v){
         switch (v.getId()){
