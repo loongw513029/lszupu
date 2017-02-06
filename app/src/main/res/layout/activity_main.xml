@@ -1,0 +1,23 @@
+<Widget.SlidingMenu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/id_menu"
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent"
+    xmlns:zhy="http://schemas.android.com/apk/res-auto"
+    android:scrollbars="none"
+    zhy:rightPadding="150dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:orientation="horizontal" >
+
+        <include layout="@layout/layout_menu" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+            <include layout="@layout/activity_tab_supportslip" />
+        </LinearLayout>
+    </LinearLayout>
+
+</Widget.SlidingMenu>
